@@ -880,3 +880,80 @@ section#timeline article:nth-child(5) div.inner h2 {
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 }
+
+/* card flip */
+
+#transformers-rule {
+  /* width: 750px;  */
+  position: relative; 
+  /* margin: 50px auto; */
+}
+
+.container {
+  width: 324px; 
+  height: 300px;
+	-webkit-perspective: 1000;
+}
+
+.card {
+  /* width: 324px;  */
+  /* height: 412px; */
+	/* border: 8px solid #fff;	 */
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);				
+	}
+
+.face {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+/* .megatron {
+  float: left; 
+  position: absolute; 
+  top: 30px; 
+  left: 20px;
+	/* -webkit-transform: rotate(5deg); */
+} */
+	.megatron .front {
+		
+	}
+	.megatron .back {
+		-webkit-transform: rotateY(180deg);
+		/* background: #a3a3a3 url(texture.png);  */
+	}
+		/* .megatron .back h2 {
+			width: 287px; height: 42px; margin: 0 auto 20px auto;
+			background: url(megatron-title.png); text-indent: -9999px; 
+		} */
+		/* .megatron img {
+			float: right;
+		} */
+		/* .megatron p {
+			float: left; width: 185px; margin: 0 0 20px 0;
+			font-size: 17px; line-height: 28px; color: #4c4c4c; 
+		} */
+		/* .megatron dl {
+			font-size: 30px; font-weight: bold; 
+			line-height: 40px; color: #717171;
+			width: 264px; padding: 5px 10px; overflow: hidden; 
+			background: #cfcfcf url(gradient.png) repeat-y;
+			-webkit-box-shadow: 0 1px 5px #888;
+			text-shadow: 0 1px 1px #f5f5f5;
+		}
+			.megatron dl dt {
+				float: left; clear: both;
+			}
+			.megatron dl dd {
+				float: right;
+			} */
+
+.front {
+	z-index: 10;
+}
+.container:hover .front {
+	z-index: 0;
+} 
