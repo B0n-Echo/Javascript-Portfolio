@@ -804,13 +804,16 @@ section#timeline {
   width: 80%;
   margin: 20px auto;
   position: relative;
+  padding-top: 10rem;
+  height: 58.5rem;
+  margin-block-end: 170px;
 }
 section#timeline:before {
   content: '';
   display: block;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 30%;
   margin: 0 0 0 -1px;
   width: 2px;
   height: 100%;
