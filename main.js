@@ -157,3 +157,6 @@ function getExperience() {
 
 
 document.getElementById("experience").innerHTML = getExperience();
+
+
+  AOS.init();
