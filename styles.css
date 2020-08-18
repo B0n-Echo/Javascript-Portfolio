@@ -866,10 +866,10 @@ section#timeline article div.inner span.date span.day {
   font-size: 10px;
 }
 section#timeline article div.inner span.date span.month {
-  font-size: 18px;
+  font-size: 10px;
 }
 section#timeline article div.inner span.date span.year {
-  font-size: 10px;
+  font-size: 18px;
 }
 section#timeline article div.inner h2 {
   padding: 0.7rem 1.5rem;
