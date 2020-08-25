@@ -651,7 +651,7 @@ section#timeline {
   margin: 20px auto;
   position: relative;
   padding-top: 10rem;
-  height: 65.5rem;
+  height: 75.5rem;
   margin-block-end: 170px;
 }
 section#timeline:before {
@@ -815,4 +815,20 @@ section#timeline article:nth-child(5) div.inner h3 {
 /* section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 } */
+
+section#projects  {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  padding-top: 15rem;
+  height: 75.5rem;
+  margin-block-end: 170px;
+}
+section#projects:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  height: 100%;
+}
 
