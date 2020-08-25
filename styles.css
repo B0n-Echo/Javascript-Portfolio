@@ -262,6 +262,8 @@ nav ul a:hover {
 	z-index: 0;
 } 
 
+/***********************************SECTIONS***********************************/
+
 #about {
   padding-top: 15rem;
   position: relative;
@@ -624,13 +626,13 @@ font-size: 1.5rem;
 }
 
 
-.experience-header{
+.section-header{
   left: 0;
   right: 0;
   margin-bottom: 3rem;
 }
 
-.experience-header h3{
+.section-header h3{
   color: #d65a31;
   text-align: center;
   margin-top: 0rem;
@@ -813,3 +815,4 @@ section#timeline article:nth-child(5) div.inner h3 {
 /* section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 } */
+
