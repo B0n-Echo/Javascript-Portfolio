@@ -834,13 +834,13 @@ section#projects:before {
 
 /* --------------------------------------------------------------------------------- */
 
-.wrapper{
+.project-wrapper{
   width: 90%;
   margin: 0 auto;
   max-width: 80rem;
 }
 
-.cols{
+.project-cols{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -851,21 +851,21 @@ section#projects:before {
           justify-content: center;
 }
 
-.col{
+.project-col{
   width: calc(25% - 2rem);
   margin: 1rem;
   cursor: pointer;
 }
 
-.container{
+.project-container{
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
 }
 
-.front,
-.back{
+.project-front,
+.project-back{
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
   border-radius: 10px;
@@ -885,14 +885,14 @@ section#projects:before {
 	font-size: 1.5rem;
 }
 
-.back{
+.project-back{
   background: #cedce7;
   background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
   background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
   background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
 }
 
-.front:after{
+.project-front:after{
 	position: absolute;
     top: 0;
     left: 0;
@@ -907,8 +907,8 @@ section#projects:before {
             backface-visibility: hidden;
     border-radius: 10px;
 }
-.container:hover .front,
-.container:hover .back{
+.project-container:hover .project-front,
+.project-container:hover .project-back{
     -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -916,7 +916,7 @@ section#projects:before {
     transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 
-.back{
+.project-back{
     position: absolute;
     top: 0;
     left: 0;
@@ -939,41 +939,41 @@ section#projects:before {
     z-index: 2;
 }
 
-.container .back{
+.project-container .project-back{
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
 
-.container .front{
+.project-container .project-front{
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
 
-.container:hover .back{
+.project-container:hover .project-back{
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
 
-.container:hover .front{
+.project-container:hover .project-front{
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
 
-.front .inner p{
+.project-front .inner p{
   font-size: 2rem;
   margin-bottom: 2rem;
   position: relative;
 }
 
-.front .inner p:after{
+.project-front .inner p:after{
   content: '';
   width: 4rem;
   height: 2px;
@@ -986,7 +986,7 @@ section#projects:before {
   bottom: -.75rem;
 }
 
-.front .inner span{
+.project-front .inner span{
   color: rgba(255,255,255,0.7);
   font-family: 'Montserrat';
   font-weight: 300;
