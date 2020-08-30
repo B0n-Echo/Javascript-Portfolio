@@ -675,13 +675,13 @@ section#timeline article:after {
   display: block;
   clear: both;
 }
-section#timeline article div.inner {
+section#timeline article div.inner-section {
   width: 40%;
   float: left;
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article div.inner span.date {
+section#timeline article div.inner-section span.date {
   display: block;
   width: 60px;
   height: 50px;
@@ -699,20 +699,20 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.2);
   box-shadow: 0 0 0 7px #25303B;
 }
-section#timeline article div.inner span.date span {
+section#timeline article div.inner-section span.date span {
   display: block;
   text-align: center;
 }
-section#timeline article div.inner span.date span.day {
+section#timeline article div.inner-section span.date span.day {
   font-size: 10px;
 }
-section#timeline article div.inner span.date span.month {
+section#timeline article div.inner-section span.date span.month {
   font-size: 10px;
 }
-section#timeline article div.inner span.date span.year {
+section#timeline article div.inner-section span.date span.year {
   font-size: 18px;
 }
-section#timeline article div.inner h2 {
+section#timeline article div.inner-section h2 {
   padding: 0.7rem 1.5rem;
   margin: 0;
   color: #000000;
@@ -753,7 +753,7 @@ section#timeline .title:after{
   transform: rotate(180deg);
 }
 
-section#timeline article div.inner h2:after {
+section#timeline article div.inner-section h2:after {
   content: '';
   position: absolute;
   top: 20px;
@@ -762,7 +762,7 @@ section#timeline article div.inner h2:after {
 	height: 10px;
   -webkit-transform: rotate(-45deg);
 }
-section#timeline article div.inner p {
+section#timeline article div.inner-section p {
   padding: 15px;
   margin: 0;
   font-size: 14px;
@@ -775,41 +775,41 @@ section#timeline article:nth-child(1)  {
   margin-top: 1rem;
 }
 
-section#timeline article div.inner h2:after {
+section#timeline article div.inner-section h2:after {
   background: #eeeeee;
 }
 
-section#timeline article:nth-child(2n+2) div.inner {
+section#timeline article:nth-child(2n+2) div.inner-section {
   float: right;
 }
-section#timeline article:nth-child(2n+2) div.inner h2:after {
+section#timeline article:nth-child(2n+2) div.inner-section h2:after {
   left: -5px;
 }
-section#timeline article:nth-child(1) div.inner h3 {
+section#timeline article:nth-child(1) div.inner-section h3 {
   background: #e74c3c;
 }
 /* section#timeline article:nth-child(1) div.inner h2:after {
   background: #e74c3c;
 } */
-section#timeline article:nth-child(2) div.inner h3 {
+section#timeline article:nth-child(2) div.inner-section h3 {
   background: #2ecc71;
 }
 /* section#timeline article:nth-child(2) div.inner h2:after {
   background: #2ecc71;
 } */
-section#timeline article:nth-child(3) div.inner h3 {
+section#timeline article:nth-child(3) div.inner-section h3 {
   background: #e67e22;
 }
 /* section#timeline article:nth-child(3) div.inner h2:after {
   background: #e67e22;
 } */
-section#timeline article:nth-child(4) div.inner h3 {
+section#timeline article:nth-child(4) div.inner-section h3 {
   background: #1abc9c;
 }
 /* section#timeline article:nth-child(4) div.inner h2:after {
   background: #1abc9c;
 } */
-section#timeline article:nth-child(5) div.inner h3 {
+section#timeline article:nth-child(5) div.inner-section h3 {
   background: #9b59b6;
 }
 /* section#timeline article:nth-child(5) div.inner h2:after {
